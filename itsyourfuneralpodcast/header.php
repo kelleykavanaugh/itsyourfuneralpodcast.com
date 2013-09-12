@@ -17,25 +17,20 @@
     <?php wp_head(); ?>
   </head>
   <body>
- <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
-
-              <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
-
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-  </div>
-  <div class="container">
+    <div class="container">
+      <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.navbar-inner -->
+      </div><!--/.navbar navbar-inverse navbar-fixed-top" -->
