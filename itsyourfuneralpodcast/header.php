@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="container">
-      <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+      <a href="<?php echo get_option('home'); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" /></a>
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
