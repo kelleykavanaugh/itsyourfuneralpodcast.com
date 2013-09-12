@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+          <a class="brand" href="<?php echo site_url(); ?>">HOME</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
             <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>

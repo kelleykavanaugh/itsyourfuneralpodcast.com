@@ -11,9 +11,9 @@ add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 
 $args = array(
 	'flex-width'    => true,
-	'width'         => 980,
+	'width'         => 1170,
 	'flex-height'    => true,
-	'height'        => 300,
+	'height'        => 358,
 	'default-image' => get_template_directory_uri() . '/images/header.jpg',
 );
 add_theme_support( 'custom-header', $args );
