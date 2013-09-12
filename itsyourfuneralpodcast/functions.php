@@ -26,10 +26,11 @@ $defaults = array(
 add_theme_support( 'custom-header', $defaults );
 
 $args = array(
+	'flex-width'    => true,
 	'width'         => 980,
-	'height'        => 60,
+	'flex-height'    => true,
+	'height'        => 300,
 	'default-image' => get_template_directory_uri() . '/images/header.jpg',
-	'uploads'       => true,
 );
 add_theme_support( 'custom-header', $args );
 
