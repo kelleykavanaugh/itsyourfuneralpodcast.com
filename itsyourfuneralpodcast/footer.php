@@ -1,12 +1,8 @@
-</div>
-      <hr>
-
-      <footer>
-        <p>&copy; 2013 <strong><?php bloginfo('name'); ?></strong></p>
-      </footer>
-
-    </div> <!-- /container -->
-        <?php wp_footer(); ?>
+            <footer>
+            <p>&copy; 2013 <strong><?php bloginfo('name'); ?></strong></p>
+            </footer>
+        </div> <!-- /container -->
+<?php wp_footer(); ?>
 
     <!-- Le javascript
     ================================================== -->
@@ -25,5 +21,5 @@
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
 
-  </body>
+    </body>
 </html>
