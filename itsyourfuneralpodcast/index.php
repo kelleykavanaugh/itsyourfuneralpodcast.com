@@ -1,14 +1,25 @@
 <?php get_header(); ?>
+<div class="container">
+  <!-- Main hero unit for a primary marketing message or call to action -->
+  <div class="hero-unit">
+    <h1>Hello, world!</h1>
+    <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+    <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+  </div><!-- End Hero Unit -->
   <div id="content">
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?><!-- Start The Loop -->
+    <div class="row">
       <div class="span12">
-      <center><h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Read <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1></center>
-      <p class="text-right"><small><em>By: <?php the_author_posts_link() ?></em></small></p>
-      <?php the_content() ?>
-    </div><!-- End Span 4-->
-    <?php endwhile; else: ?>
-    <p>Sorry, no posts matched your criteria.</p>
-    <?php endif; ?><!-- End the Loop -->
+      <!-- Start The Loop -->
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <center><h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Read <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1></center>
+          <p class="text-right"><small><em>By: <?php the_author_posts_link() ?></em></small></p>
+          <?php the_content() ?>
+      </div><!-- End Span-->
+          <?php endwhile; else: ?>
+          <p>Sorry, no posts matched your criteria.</p>
+          <?php endif; ?>
+      <!-- End the Loop -->
+    </div><!-- End Row -->
   </div><!-- End "content" -->
   <div class="span12">
     <!--Start Nav-->
