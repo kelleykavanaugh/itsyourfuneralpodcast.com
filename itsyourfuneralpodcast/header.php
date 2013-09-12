@@ -17,7 +17,12 @@
     <?php wp_head(); ?>
   </head>
   <body>
-
+  <!-- Main hero unit for a primary marketing message or call to action -->
+  <div class="hero-unit">
+    <h1>It's Your Funeral!</h1>
+    <p>This is where Scout will put the mission statement things</p>
+    <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+  </div><!-- End Hero Unit -->
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
@@ -37,5 +42,4 @@
       </div>
     </div>
   </div>
-
   <div class="container">

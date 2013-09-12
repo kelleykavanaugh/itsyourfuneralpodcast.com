@@ -1,11 +1,4 @@
 <?php get_header(); ?>
-<div class="container">
-  <!-- Main hero unit for a primary marketing message or call to action -->
-  <div class="hero-unit">
-    <h1>It's Your Funeral!</h1>
-    <p>This is where Scout will put the mission statement things</p>
-    <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-  </div><!-- End Hero Unit -->
   <div id="content">
     <div class="row">
       <div class="span12">
