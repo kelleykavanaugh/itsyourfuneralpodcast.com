@@ -1,5 +1,7 @@
             <footer>
-            <p>&copy; 2013 <strong><?php bloginfo('name'); ?></strong></p>
+            <div class="text-right">
+                <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></em></small>
+            </div><!--/ .text-right -->
             </footer>
         </div> <!-- /container -->
         <?php wp_footer(); ?>
