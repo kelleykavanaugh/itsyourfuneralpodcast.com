@@ -2,7 +2,7 @@
             <p>&copy; 2013 <strong><?php bloginfo('name'); ?></strong></p>
             </footer>
         </div> <!-- /container -->
-<?php wp_footer(); ?>
+        <?php wp_footer(); ?>
 
     <!-- Le javascript
     ================================================== -->
