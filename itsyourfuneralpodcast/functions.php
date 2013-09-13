@@ -23,15 +23,11 @@ add_theme_support( 'custom-header', $args );
  *
  */
 
-if (function_exists('register_sidebar')) {
-     register_sidebar(array(
-      'name' => 'Sidebar Widgets',
-      'id'   => 'sidebar-widgets',
-      'description'   => 'Widget Area',
-      'before_widget' => '<div id="one" class="two">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h2>',
-      'after_title'   => '</h2>'
-     ));
-    }
+if (function_exists("register_sidebar")) {
+  register_sidebar(array(
+    'name' => 'sidebar',
+    'before_title' => '<h2>',
+    'after_title' => '</h2>',
+));
+}
 ?>
