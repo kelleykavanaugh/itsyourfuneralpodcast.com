@@ -24,18 +24,20 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 
 /* Universal Styles */
 body { 
-	background: #222220;
+	background: #21211f;
 	color: #fbf1e5;
 }
 h1, h2, h3, h4, h5, h6 {
  	text-align: center;
 }
-h1 a, a:active, a:visited a:hover {
+h1 a, a:active, a:visited {
     text-decoration:none;
-    color:#fbf1e5;
+    color: #fbf1e5;
 }
 a {
-	color: #fc272e;a:hover {
+	color: #fc272e;
+}
+a:hover {
 	color: #c90d14;
 }
 .border-bottom {
@@ -48,14 +50,16 @@ a {
    padding: 0 0 0 0;
 }
 .container-fluid {
-	background-color: #d8af93;
-	padding: 0px 10% 0px 10%;
-	margin: 0 0 0 0;
+	background-color: #21211f;
+	padding: 0 0 0 0;
+	margin: 0 10% 0 10%;
 }
 #content {
 	background-color: #21211f;
-	padding: 0 20px 0 20px;
-	margin: 5px 5px 0 5px;
+	padding: 0 50px 0 50px;
+	margin: 0px 0px 0 0px;
+	border-left: 5px solid #d8af93;
+	border-right: 5px solid #d8af93;
 }
 .navbar.navbar-inverse {
 	padding: 0 0 0 0;
