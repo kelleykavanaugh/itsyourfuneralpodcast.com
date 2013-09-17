@@ -11,7 +11,18 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 */
 
 @import url('bootstrap/css/bootstrap.css'); 
-@import url('bootstrap/css/bootstrap-responsive.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+/* wordpress image styles */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+/* End wordpress image styles */
+
+/* Universal Styles */
 body { 
      padding-top: 30px; 
      padding-bottom: 40px;
@@ -23,6 +34,7 @@ body {
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
+/* End Universal Styles */
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
