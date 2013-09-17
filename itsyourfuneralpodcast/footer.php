@@ -3,9 +3,8 @@
                 <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></em></small>
             </div><!--/ .text-right -->
             </footer>
-        </div> <!-- /container -->
         <?php wp_footer(); ?>
-
+        </div> <!-- /container-fluid -->
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -22,6 +21,5 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
-
     </body>
 </html>

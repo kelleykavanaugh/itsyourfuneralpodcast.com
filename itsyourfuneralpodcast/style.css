@@ -25,7 +25,6 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* Universal Styles */
 body { 
 	background: #222220;
-	padding: 0px 10% 40px 10%;
 	color: #fbf1e5;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -36,9 +35,7 @@ h1 a, a:active, a:visited a:hover {
     color:#fbf1e5;
 }
 a {
-	color: #fc272e;
-}
-a:hover {
+	color: #fc272e;a:hover {
 	color: #c90d14;
 }
 .border-bottom {
@@ -52,7 +49,8 @@ a:hover {
 }
 .container-fluid {
 	background-color: #d8af93;
-	padding: 0 0 0 0;
+	padding: 0px 10% 0px 10%;
+	margin: 0 0 0 0;
 }
 #content {
 	background-color: #21211f;
