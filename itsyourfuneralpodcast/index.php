@@ -18,7 +18,7 @@
           <?php endif; ?>
       <!-- End the Loop -->
       </div><!--/ .span -->
-      <div class="span3">
+      <div class="span3 hidden-phone">
         <?php get_sidebar( ); ?>
       </div><!--/ .span -->
     </div><!--/ .row -->
