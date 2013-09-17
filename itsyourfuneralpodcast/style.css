@@ -17,4 +17,30 @@ body {
      padding-bottom: 40px;
      padding-left: 10%;
      padding-right: 10%;
+ }
+
+/* For Responsive Things */
+/* Large desktop */
+@media (min-width: 1200px) {
 }
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+		margin-bottom: 0px;
+	}
+	.container {
+		padding: 0px 0px 0px 0px;
+	}
+}
+@media (min-width: 768px) {
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+		.navbar-inverse .navbar-inner {
+		padding-left: 40px;
+	}
+}
+/* End Responsive */

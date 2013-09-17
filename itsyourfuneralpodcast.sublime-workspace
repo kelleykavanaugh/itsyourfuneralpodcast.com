@@ -32,6 +32,12 @@
 	},
 	"file_history":
 	[
+		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/sidebar.php",
+		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/functions.php",
+		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/footer.php",
+		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/style.css",
+		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/header.php",
+		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcast/index.php",
 		"/Users/kelleykavanaugh/Sites/itsyourfuneralpodcast.com/itsyourfuneralpodcastproject",
 		"/Users/kelleykavanaugh/Downloads/wordpress/wp-config-sample.php",
 		"/Users/kelleykavanaugh/Sites/applesnacksmag.com/wp-content/themes/applesnacks5bootstrap/index.php",
@@ -103,6 +109,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav",
 			"container",
 			"block",
 			"category",
