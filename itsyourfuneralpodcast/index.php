@@ -9,7 +9,10 @@
           <p class="pull-right">Post By: <?php the_author_posts_link() ?></p>
         <div class="pull-left border-bottom">
           <?php the_content() ?>
-        </div>
+          <div class="pull-right">
+            <small><em><?php the_tags('Tags: ', ', ', '<br />'); ?></em></small>
+          </div><!--/pull-right-->
+        </div><!--/pull-left border-bottom-->
           <?php endwhile; else: ?>
           <p>Sorry, no posts matched your criteria.</p>
           <?php endif; ?>
