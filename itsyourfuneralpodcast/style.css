@@ -18,7 +18,11 @@ body {
      padding-left: 10%;
      padding-right: 10%;
  }
-
+.border-bottom {
+	border-bottom: dashed 1px #000;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
