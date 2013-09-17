@@ -28,11 +28,18 @@ body {
      padding-bottom: 40px;
      padding-left: 10%;
      padding-right: 10%;
- }
+}
+h1, h2, h3, h4, h5, h6 {
+ 	text-align: center;
+}
 .border-bottom {
 	border-bottom: dashed 1px #000;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
+}
+#sidebar li.widget {
+   list-style: none;
+   padding: 0 0 0 0;
 }
 /* End Universal Styles */
 /* For Responsive Things */
