@@ -38,6 +38,9 @@ h1, h2, h3, h4, h5, h6 {
    list-style: none;
    padding: 0 0 0 0;
 }
+#content {
+	padding: 0 20px 0 20px;
+}
 /* End Universal Styles */
 /* For Responsive Things */
 /* Large desktop */
@@ -45,6 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Portrait tablet to landscape and desktop */
 @media (max-width: 979px) {
+	body { 
+		padding: 0 0 0 0;
+	}
 }
 @media (min-width: 768px) {
 }
