@@ -1,5 +1,4 @@
       <?php get_header(); ?>
-      <div id="content">
         <div class="row-fluid">
           <div class="span9">
           <!-- Start The Loop -->
@@ -17,17 +16,17 @@
           <p>Sorry, no posts matched your criteria.</p>
           <?php endif; ?>
           <!-- End the Loop -->
+          <!--Start nav-->
+          <div class="pull-left">
+          <?php previous_posts_link( 'Newer Episodes' ); ?>
+          </div><!--/pull-left-->
+          <div class="pull-right">
+          <?php next_posts_link( 'Older Episodes' , $max_pages ); ?>
+          </div><!--/pull-right-->
+          <!--/ nav-->
           </div><!--/ .span -->
           <div class="span3 hidden-phone">
           <?php get_sidebar( ); ?>
           </div><!--/ .span -->
         </div><!--/ .row -->
-        <div class="row-fluid">
-          <div class="span12">
-          <!--Start nav-->
-          <?php previous_posts_link( 'Newer Episodes' ); ?>
-          <?php next_posts_link( 'Older Episodes' , $max_pages ); ?>
-          <!--/ nav-->
-          </div><!--/ .span -->
-        </div><!--/ .row-fluid -->
       <?php get_footer(); ?>

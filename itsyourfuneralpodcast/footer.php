@@ -1,3 +1,6 @@
+        </div><!--/ content -->
+        <div class="row-fluid">
+          <div class="span12">
             <footer>
                 <div class="pull-left">
                     <small><em>Powered by <strong><a href="http://wordpress.org/">Wordpress</a></strong>, theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a></strong></em></small>
@@ -6,8 +9,9 @@
                     <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></em></small>
                 </div><!--/ .pull-right -->
             </footer>
+          </div><!--/ .span -->
+        </div><!--/ .row-fluid -->
         <?php wp_footer(); ?>
-        </div><!--/ content -->
         </div> <!-- /container-fluid -->
     <!-- Le javascript
     ================================================== -->
