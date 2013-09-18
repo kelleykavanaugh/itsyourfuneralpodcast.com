@@ -18,7 +18,9 @@
   </head>
   <body>
     <div class="container-fluid">
-      <a href="<?php echo get_option('home'); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" /></a>
+      <div class="blogtitle"><a href="<?php echo get_option('home'); ?>/"><h1><?php bloginfo('name'); ?></a></h1></div>
+      <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+      <div class="description"><h3><?php bloginfo('description'); ?></h3></div>
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
