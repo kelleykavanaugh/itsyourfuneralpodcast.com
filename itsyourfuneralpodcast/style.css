@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
  	text-align: center;
 }
 h1 a, a:active, a:visited {
-    text-decoration:none;
+    text-decoration: none;
     color: #141411;
 }
 a {
@@ -61,6 +61,7 @@ a:hover {
    padding: 0 0 0 0;
 }
 .container-fluid {
+	background-color: none;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 10% 0 10%;
 	border: 1px solid #fff600;
@@ -83,14 +84,24 @@ footer a, footer a:hover, footer a:active, footer a:visited {
 footer a:hover {
 	text-decoration: underline;
 }
-.blogtitle, .blogtitle a {
-	color: #141411;
+.blogtitle {
+	height: 104px;
+	text-align: center;
+	font-size: 38.5px;
 	font-family: roughTypewriter;
+	padding: 40px 0 0px 0px;
 	border: 1px solid #fff600;
 }
+.blogtitle a, .blogtitle a:hover {
+	color: #141411;
+	text-decoration: none;
+}
 .description {
-	font-family: Dakota;
+	text-align: center;
+	font-size: 40px;
+	font-family: roughTypewriter;
 	color: #D11523;
+	padding: 10px 0 10px 0px;
 	border: 1px solid #fff600;
 }
 .navbar {
