@@ -24,24 +24,25 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 
 /* Universal Styles */
 body { 
-	background: #21211f;
-	color: #fbf1e5;
+	background: #383838;
+	color: #141411;
 }
 h1, h2, h3, h4, h5, h6 {
+	padding: 10px 0 0 0;
  	text-align: center;
 }
 h1 a, a:active, a:visited {
     text-decoration:none;
-    color: #fbf1e5;
+    color: #d8af93;
 }
 a {
-	color: #fc272e;
+	color: #d8af93;
 }
 a:hover {
 	color: #c90d14;
 }
 .border-bottom {
-	border-bottom: dashed 1px #fbf1e5;
+	border-bottom: dashed 1px #141411;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
@@ -50,20 +51,28 @@ a:hover {
    padding: 0 0 0 0;
 }
 .container-fluid {
-	background-color: #21211f;
-	padding: 0 0 0 0;
-	margin: 0 10% 0 10%;
+	background-color: #fbf1e5;
+	padding: 0 0px 0 0;
+	margin: 0 20% 0 20%;
+	border-radius: 15px;
 }
 #content {
-	background-color: #21211f;
-	padding: 0 50px 0 50px;
+	background-color: #fbf1e5;
+	padding: 0 20px 0 20px;
 	margin: 0px 0px 0 0px;
-	border-left: 5px solid #d8af93;
-	border-right: 5px solid #d8af93;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
-.navbar.navbar-inverse {
+.navbar .navbar-inverse {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+}
+.navbar-inverse .navbar-inner {
+  background-color: #FFF; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  border-radius: 0px;
 }
 /* End Universal Styles */
 /* For Responsive Things */
