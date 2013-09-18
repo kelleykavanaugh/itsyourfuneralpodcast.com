@@ -111,18 +111,35 @@ footer a:hover {
 	border: 1px solid #fff600;
 }
 .navbar-inverse .navbar-inner {
+	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size: 20px;
 	background-color: #F7E3CA;
 	background-image: none;
 	background-repeat: no-repeat;
 	border: 1px solid #fff600;
 	border-radius: 0px;
-	font-weight: bold;
+	padding: 5px 10px 5px 20px;
+
 }
-.navbar-inverse .navbar-inner li a {
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+	color: #000000;
+	text-shadow: 0;
+}
+
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .brand:focus,
+.navbar-inverse .nav > li > a:focus {
+	color: #3A3A38;
+}
+
+.navbar-inverse .brand {
 	color: #000000;
 }
-.navbar-inverse .navbar-inner li a:hover {
-	color: #3A3A38;
+
+.navbar-inverse .navbar-text {
+	color: #000000;
 }
 /* End Universal Styles */
 /* For Responsive Things */
