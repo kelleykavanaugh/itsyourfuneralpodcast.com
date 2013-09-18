@@ -24,7 +24,8 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 
 /* Universal Styles */
 body { 
-	background: #383838;
+	background: url(images/background.png) repeat-x;
+	background-color: #141411;
 	color: #141411;
 }
 h1, h2, h3, h4, h5, h6 {
