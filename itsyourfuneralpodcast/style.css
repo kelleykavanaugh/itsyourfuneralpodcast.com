@@ -33,13 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 a, a:active, a:visited {
     text-decoration:none;
-    color: #d8af93;
+    color: #141411;
 }
 a {
-	color: #d8af93;
+	color: #141411;
 }
 a:hover {
-	color: #c90d14;
+	color: #141411;
 }
 .border-bottom {
 	border-bottom: dashed 1px #141411;
@@ -51,28 +51,34 @@ a:hover {
    padding: 0 0 0 0;
 }
 .container-fluid {
-	background-color: #fbf1e5;
-	padding: 0 0px 0 0;
-	margin: 0 20% 0 20%;
+	background-color: #141411;
+	padding: 30px 30px 0 30px;
+	margin: 30px 20% 0 20%;
 	border-radius: 15px;
 }
 #content {
-	background-color: #fbf1e5;
-	padding: 0 20px 0 20px;
+	background-color: #FFF;
+	padding: 0 5% 0 5%;
 	margin: 0px 0px 0 0px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
 }
-.navbar .navbar-inverse {
+.navbar.navbar-inverse {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+	color: #FFF;
 }
 .navbar-inverse .navbar-inner {
-  background-color: #FFF; /* background color will be black for all browsers */
+  background-color: #fc272e; /* background color will be black for all browsers */
   background-image: none;
   background-repeat: no-repeat;
-  filter: none;
+  border: 0px;
   border-radius: 0px;
+  color: #FFF;
+}
+.navbar-inner .brand, .navbar-inverse .navbar-inner li a {
+    color: #FFFFFF;
+}
+.navbar-inner .brand, .navbar-inverse .navbar-inner li a:hover {
+    color: #141411;
 }
 /* End Universal Styles */
 /* For Responsive Things */
