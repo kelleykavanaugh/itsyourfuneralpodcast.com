@@ -67,7 +67,7 @@ a:hover {
 }
 #content {
 	background-color: #FFF;
-	padding: 0 5% 0 5%;
+	padding: 3% 3% 3% 3%;
 	margin: 0px 0px 0 0px;
 	border: 1px solid #fff600;
 }
@@ -97,24 +97,17 @@ footer a:hover {
 	border: 1px solid #fff600;
 }
 .navbar-inverse .navbar-inner {
-	background-color: #D11523; /* background color will be black for all browsers */
+	background-color: #F7E3CA;
 	background-image: none;
 	background-repeat: no-repeat;
 	border: 1px solid #fff600;
 	border-radius: 0px;
-	color: #FFF;
 }
 .navbar-inner .brand, .navbar-inverse .navbar-inner li a {
-    color: #FFFFFF;
+    color: #000;
 }
 .navbar-inner .brand, .navbar-inverse .navbar-inner li a:hover {
-    color: #141411;
-}
-.navbar-inner .brand, .navbar-inverse .navbar-inner li a {
-    color: #FFFFFF;
-}
-.navbar-inner .brand, .navbar-inverse .navbar-inner li a:hover {
-    color: #141411;
+    color: #3A3A38;
 }
 /* End Universal Styles */
 /* For Responsive Things */
