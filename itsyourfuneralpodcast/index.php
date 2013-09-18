@@ -30,5 +30,4 @@
           <!--/ nav-->
           </div><!--/ .span -->
         </div><!--/ .row-fluid -->
-      </div><!--/ content -->
       <?php get_footer(); ?>

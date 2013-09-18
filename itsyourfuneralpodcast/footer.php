@@ -1,9 +1,13 @@
             <footer>
-                <div class="text-right">
+                <div class="pull-left">
+                    <small><em>Powered by <strong><a href="http://wordpress.org/">Wordpress</a></strong>, theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a></strong></em></small>
+                </div><!--/. pull-left-->
+                <div class="pull-right">
                     <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></em></small>
-                </div><!--/ .text-right -->
+                </div><!--/ .pull-right -->
             </footer>
         <?php wp_footer(); ?>
+        </div><!--/ content -->
         </div> <!-- /container-fluid -->
     <!-- Le javascript
     ================================================== -->
