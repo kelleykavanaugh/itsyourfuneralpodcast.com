@@ -12,6 +12,14 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 
 @import url('bootstrap/css/bootstrap.css'); 
 @import url('bootstrap/css/bootstrap-responsive.css');
+@font-face {
+	font-family: roughTypewriter;
+	src: url('fonts/rough_typewriter_bold_itl.otf'),
+}
+@font-face {
+	font-family: Dakota;
+	src: url('fonts/Dakota_Regular.ttf'),
+}
 
 /* wordpress image styles */
 img.alignright {float:right; margin:0 0 1em 1em}
@@ -27,6 +35,7 @@ body {
 	background: url(images/background.png) repeat-x;
 	background-color: #141411;
 	color: #141411;
+	border: 1px solid #fff600;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 10px 0 0 0;
@@ -56,38 +65,46 @@ a:hover {
 	margin: 30px 10% 0 10%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15;
+	border: 1px solid #fff600;
 }
 #content {
 	background-color: #FFF;
 	padding: 0 5% 0 5%;
 	margin: 0px 0px 0 0px;
+	border: 1px solid #fff600;
 }
 footer, footer a {
 	color: #D11523;
 	margin-bottom: 30px;
+	border: 1px solid #fff600;
 }
 footer a:hover {
 	color: #D11523;
 	text-decoration: underline;
 }
-.blogtitle, #blogtitle a {
-	color: #D11523;
+.blogtitle, .blogtitle a {
+	color: #141411;
+	font-family: roughTypewriter;
+	border: 1px solid #fff600;
 }
 .description {
+	font-family: Dakota;
 	color: #D11523;
+	border: 1px solid #fff600;
 }
 .navbar.navbar-inverse {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	color: #FFF;
+	border: 1px solid #fff600;
 }
 .navbar-inverse .navbar-inner {
-  background-color: #D11523; /* background color will be black for all browsers */
-  background-image: none;
-  background-repeat: no-repeat;
-  border: 0px;
-  border-radius: 0px;
-  color: #FFF;
+	background-color: #D11523; /* background color will be black for all browsers */
+	background-image: none;
+	background-repeat: no-repeat;
+	border: 1px solid #fff600;
+	border-radius: 0px;
+	color: #FFF;
 }
 .navbar-inner .brand, .navbar-inverse .navbar-inner li a {
     color: #FFFFFF;
