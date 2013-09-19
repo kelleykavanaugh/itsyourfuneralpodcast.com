@@ -200,9 +200,9 @@ a:hover {
 		background-position: 0 -50px;
 		background-color: #141411;
 		color: #141411;
-		border: 1px solid #fff600;
 	}
 	.blogtitle {
+		height: 84px;
 		font-size: 38.5px;
 		line-height: 1em;
 		padding: 10px 0 0px 0px;
@@ -222,6 +222,7 @@ a:hover {
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	.blogtitle {
+		height: 84px;
 		font-size: 30.5px;
 		line-height: 1em;
 		padding: 10px 0 0px 0px;
