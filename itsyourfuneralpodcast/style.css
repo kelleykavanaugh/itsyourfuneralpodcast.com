@@ -14,36 +14,24 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 @import url('bootstrap/css/bootstrap-responsive.css');
 /* Fonts! */
 @font-face {
-	font-family: Typewriter;  
-	src: local('Typewriter'), 
-		url("fonts/Veteran-Typewriter/veteran_typewriter.ttf") format('truetype');  
-	font-weight: normal;  
-}
-@font-face {
-	font-family: Handwritten;  
-	src: local('Amatic'), 
-		url("fonts/Amatic/AmaticSB-Regular.ttf") format('truetype');  
-	font-weight: normal;  
-}	
-@font-face {
     font-family: Amatic;
-    src: local('Amatic');
-    src: url("fonts/Amatic/amaticsc-regular-webfont.eot");
-    src: url("fonts/Amatic/amaticsc-regular-webfont.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Amatic/amaticsc-regular-webfont.woff") format('woff'),
-         url("fonts/Amatic/amaticsc-regular-webfont.ttf") format('truetype'),
-         url("fonts/Amatic/amaticsc-regular-webfont.svg#amatic_scregular") format('svg');
+    src: local('Amatic'),
+    	url("fonts/Amatic/amaticsc-regular-webfont.eot"),
+    	url("fonts/Amatic/amaticsc-regular-webfont.eot?#iefix") format('embedded-opentype'),
+    	url("fonts/Amatic/amaticsc-regular-webfont.woff") format('woff'),
+    	url("fonts/Amatic/amaticsc-regular-webfont.ttf") format('truetype'),
+    	url("fonts/Amatic/amaticsc-regular-webfont.svg#amatic_scregular") format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Amatic-Bold;
-	src: local('Amatic-Bold');
-    src: url("fonts/Amatic/amatic-bold-webfont.eot");
-    src: url("fonts/Amatic/amatic-bold-webfont.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Amatic/amatic-bold-webfont.woff") format('woff'),
-         url("fonts/Amatic/amatic-bold-webfont.ttf") format('truetype'),
-         url("fonts/Amatic/amatic-bold-webfont.svg#amaticbold") format('svg');
+	src: local('Amatic-Bold'),
+		url("fonts/Amatic/amatic-bold-webfont.eot"),
+		url("fonts/Amatic/amatic-bold-webfont.eot?#iefix") format('embedded-opentype'),
+		url("fonts/Amatic/amatic-bold-webfont.woff") format('woff'),
+		url("fonts/Amatic/amatic-bold-webfont.ttf") format('truetype'),
+		url("fonts/Amatic/amatic-bold-webfont.svg#amaticbold") format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -52,9 +40,9 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 	src: local('VeteranTypewriter'),
 		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.eot"),
 		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.eot?#iefix") format('embedded-opentype'),
-    	url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.woff") format('woff'),
-        url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.ttf") format('truetype'),
-        url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.svg#veteran_typewriterregular") format('svg');
+		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.woff") format('woff'),
+		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.ttf") format('truetype'),
+		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.svg#veteran_typewriterregular") format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -92,10 +80,10 @@ a:hover {
 /* End Universal Styles */
 /* Main Posts Styles */
 .blogtitle {
-	height: 104px;
+	font-family: VeteranTypewriter, "VeteranTypewriter", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 	text-align: center;
 	font-size: 38.5px;
-	font-family: VeteranTypewriter, 'VeteranTypewriter', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	height: 104px;
 	padding: 40px 0 0px 0px;
 	border: 0px solid #fff600;
 }
@@ -104,9 +92,9 @@ a:hover {
 	text-decoration: none;
 }
 .description {
+	font-family: Amatic, 'Amatic', Amatic-Bold, "Amatic-Bold", "Brush Script MT", cursive;
 	text-align: center;
 	font-size: 50px;
-	font-family: Amatic, 'Amatic', "Brush Script MT", cursive;
 	letter-spacing: 5px;
 	color: #D11523;
 	padding: 10px 0 30px 0px;
