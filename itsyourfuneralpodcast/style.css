@@ -164,8 +164,9 @@ a:hover {
 .navbar-inverse .nav > li > a:hover,
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
-	color: #3A3A38;
+	color: #000000;
 	text-shadow: 0;
+	text-decoration: underline;
 }
 
 .navbar-inverse .brand {
