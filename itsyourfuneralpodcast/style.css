@@ -24,9 +24,7 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 	src: local('Amatic'), 
 		url("fonts/Amatic/AmaticSB-Regular.ttf") format('truetype');  
 	font-weight: normal;  
-}
-
-
+}	
 @font-face {
     font-family: Amatic;
     src: local('Amatic');
@@ -97,7 +95,7 @@ a:hover {
 	height: 104px;
 	text-align: center;
 	font-size: 38.5px;
-	font-family: VeteranTypewriter, 'VeteranTypewriter', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family: VeteranTypewriter, 'VeteranTypewriter', "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 	padding: 40px 0 0px 0px;
 	border: 0px solid #fff600;
 }
@@ -108,7 +106,7 @@ a:hover {
 .description {
 	text-align: center;
 	font-size: 50px;
-	font-family: Amatic, 'Amatic', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family: Amatic, 'Amatic', "Brush Script MT", cursive;
 	letter-spacing: 5px;
 	color: #D11523;
 	padding: 10px 0 30px 0px;
