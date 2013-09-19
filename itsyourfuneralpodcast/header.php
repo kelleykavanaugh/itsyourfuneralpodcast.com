@@ -20,7 +20,7 @@
     <div class="container-fluid">
       <div class="blogtitle"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></div>
       <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-      <div class="description"><em><?php bloginfo('description'); ?></em></div>
+      <div class="description"><?php bloginfo('description'); ?></div>
       <div id="content">
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">

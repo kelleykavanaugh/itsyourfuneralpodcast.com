@@ -12,15 +12,55 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 
 @import url('bootstrap/css/bootstrap.css'); 
 @import url('bootstrap/css/bootstrap-responsive.css');
+/* Fonts! */
 @font-face {
-	font-family: roughTypewriter;
-	src: url('fonts/rough_typewriter_bold_itl.otf'),
+	font-family: Typewriter;  
+	src: local('Typewriter'), 
+		url("fonts/Veteran-Typewriter/veteran_typewriter.ttf") format('truetype');  
+	font-weight: normal;  
 }
 @font-face {
-	font-family: Dakota;
-	src: url('fonts/Dakota_Regular.ttf'),
+	font-family: Handwritten;  
+	src: local('Amatic'), 
+		url("fonts/Amatic/AmaticSB-Regular.ttf") format('truetype');  
+	font-weight: normal;  
 }
 
+
+@font-face {
+    font-family: Amatic;
+    src: local('Amatic');
+    src: url("fonts/Amatic/amaticsc-regular-webfont.eot");
+    src: url("fonts/Amatic/amaticsc-regular-webfont.eot?#iefix") format('embedded-opentype'),
+         url("fonts/Amatic/amaticsc-regular-webfont.woff") format('woff'),
+         url("fonts/Amatic/amaticsc-regular-webfont.ttf") format('truetype'),
+         url("fonts/Amatic/amaticsc-regular-webfont.svg#amatic_scregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Amatic-Bold;
+	src: local('Amatic-Bold');
+    src: url("fonts/Amatic/amatic-bold-webfont.eot");
+    src: url("fonts/Amatic/amatic-bold-webfont.eot?#iefix") format('embedded-opentype'),
+         url("fonts/Amatic/amatic-bold-webfont.woff") format('woff'),
+         url("fonts/Amatic/amatic-bold-webfont.ttf") format('truetype'),
+         url("fonts/Amatic/amatic-bold-webfont.svg#amaticbold") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: VeteranTypewriter;
+	src: local('VeteranTypewriter'),
+		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.eot"),
+		url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.eot?#iefix") format('embedded-opentype'),
+    	url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.woff") format('woff'),
+        url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.ttf") format('truetype'),
+        url("fonts/Veteran-Typewriter/veteran_typewriter-webfont.svg#veteran_typewriterregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* end fonts */
 /* wordpress image styles */
 img.alignright {float:right; margin:0 0 1em 1em}
 img.alignleft {float:left; margin:0 1em 1em 0}
@@ -35,7 +75,7 @@ body {
 	background: url(images/background.png) repeat-x;
 	background-color: #141411;
 	color: #141411;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 10px 0 0 0;
@@ -57,9 +97,9 @@ a:hover {
 	height: 104px;
 	text-align: center;
 	font-size: 38.5px;
-	font-family: roughTypewriter;
+	font-family: VeteranTypewriter, 'VeteranTypewriter', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 	padding: 40px 0 0px 0px;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 }
 .blogtitle a, .blogtitle a:hover {
 	color: #141411;
@@ -67,23 +107,24 @@ a:hover {
 }
 .description {
 	text-align: center;
-	font-size: 40px;
-	font-family: Dakota;
+	font-size: 50px;
+	font-family: Amatic, 'Amatic', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	letter-spacing: 5px;
 	color: #D11523;
 	padding: 10px 0 30px 0px;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 }
 .container-fluid {
 	background-color: none;
 	padding: 0px 0px 0px 0px;
-	margin: 0px 10% 0 10%;
-	border: 1px solid #fff600;
+	margin: 0px 15% 0 15%;
+	border: 0px solid #fff600;
 }
 #content {
 	background-color: #FFF;
 	padding: 3% 3% 3% 3%;
 	margin: 0px 40px 0 40px;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 }
 .border-bottom {
 	border-bottom: dashed 1px #141411;
@@ -98,7 +139,7 @@ a:hover {
 	color: #D11523;
 	padding: 0px 0 0px 0;
 	margin: 0px 10% 0px 10%;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 }
 .footer a, .footer a:hover, .footer a:active, .footer a:visited {
 	color: #D11523;
@@ -112,7 +153,7 @@ a:hover {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	color: #FFF;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 }
 .navbar-inverse .navbar-inner {
 	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
@@ -120,7 +161,7 @@ a:hover {
 	background-color: #F7E3CA;
 	background-image: none;
 	background-repeat: no-repeat;
-	border: 1px solid #fff600;
+	border: 0px solid #fff600;
 	border-radius: 0px;
 	padding: 5px 10px 5px 20px;
 

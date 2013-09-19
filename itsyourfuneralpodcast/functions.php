@@ -13,7 +13,7 @@ $args = array(
 	'flex-width'    => true,
 	'width'         => 1170,
 	'flex-height'    => true,
-	'height'        => 358,
+	'height'        => 270,
 	'default-image' => get_template_directory_uri() . '/images/header.png',
 );
 add_theme_support( 'custom-header', $args );
