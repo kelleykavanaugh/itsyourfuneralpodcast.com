@@ -5,7 +5,7 @@
             <div class="footer">
                 <footer>
                 <div class="pull-left">
-                    <small><em>Powered by <strong><a href="http://wordpress.org/">Wordpress</a></strong>, theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a></strong></em></small>
+                    <small><em><strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a></strong>
                 </div><!--/. pull-left-->
                 <div class="pull-right">
                     <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></strong></em></small>
