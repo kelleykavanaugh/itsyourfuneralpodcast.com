@@ -227,5 +227,14 @@ a:hover {
 		line-height: 1em;
 		padding: 10px 0 0px 0px;
 	}
+	h1 {
+		font-size: 31.5px;
+		}
+	h2 {
+		font-size: 24.5px;
+		}
+	h3 {
+		font-size: 22.5px;
+	}
 }
 /* End Responsive */
