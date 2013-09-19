@@ -16,22 +16,22 @@ This simple theme was built by modifying the example Bootstrap theme "Basic Mark
 @font-face {
     font-family: Amatic;
     src: local('Amatic'),
-    	url("fonts/Amatic/amaticsc-regular-webfont.eot"),
-    	url("fonts/Amatic/amaticsc-regular-webfont.eot?#iefix") format('embedded-opentype'),
-    	url("fonts/Amatic/amaticsc-regular-webfont.woff") format('woff'),
-    	url("fonts/Amatic/amaticsc-regular-webfont.ttf") format('truetype'),
-    	url("fonts/Amatic/amaticsc-regular-webfont.svg#amatic_scregular") format('svg');
+    	url("fonts/amatic/amaticsc-regular-webfont.eot"),
+    	url("fonts/amatic/amaticsc-regular-webfont.eot?#iefix") format('embedded-opentype'),
+    	url("fonts/amatic/amaticsc-regular-webfont.woff") format('woff'),
+    	url("fonts/amatic/amaticsc-regular-webfont.ttf") format('truetype'),
+    	url("fonts/amatic/amaticsc-regular-webfont.svg#amatic_scregular") format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Amatic-Bold;
 	src: local('Amatic-Bold'),
-		url("fonts/Amatic/amatic-bold-webfont.eot"),
-		url("fonts/Amatic/amatic-bold-webfont.eot?#iefix") format('embedded-opentype'),
-		url("fonts/Amatic/amatic-bold-webfont.woff") format('woff'),
-		url("fonts/Amatic/amatic-bold-webfont.ttf") format('truetype'),
-		url("fonts/Amatic/amatic-bold-webfont.svg#amaticbold") format('svg');
+		url("fonts/amatic/amatic-bold-webfont.eot"),
+		url("fonts/amatic/amatic-bold-webfont.eot?#iefix") format('embedded-opentype'),
+		url("fonts/amatic/amatic-bold-webfont.woff") format('woff'),
+		url("fonts/amatic/amatic-bold-webfont.ttf") format('truetype'),
+		url("fonts/amatic/amatic-bold-webfont.svg#amaticbold") format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -141,7 +141,7 @@ a:hover {
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	color: #FFF;
-	border: 0px solid #fff600;
+	border: 0px;
 }
 .navbar-inverse .navbar-inner {
 	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
@@ -150,7 +150,7 @@ a:hover {
 	background-image: none;
 	background-repeat: no-repeat;
 	border: 0px solid #fff600;
-	border-radius: 0px;
+	border-radius: 5px;
 	padding: 5px 10px 5px 20px;
 
 }
