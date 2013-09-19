@@ -165,16 +165,34 @@ a:hover {
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
 	color: #3A3A38;
+	text-shadow: 0;
 }
 
 .navbar-inverse .brand {
 	color: #000000;
+	text-shadow: 0;
 }
 
 .navbar-inverse .navbar-text {
 	color: #000000;
+	text-shadow: 0;
 }
 /* End Navbar Styles */
+/* Drop Down Styles */
+.nav li {
+	background-color: #F7E3CA;
+	color: #000;
+	border-radius: 5px;
+}
+.navbar-inverse .nav-collapse .nav > li > a:hover,
+.navbar-inverse .nav-collapse .nav > li > a:focus,
+.navbar-inverse .nav-collapse .dropdown-menu a:hover,
+.navbar-inverse .nav-collapse .dropdown-menu a:focus {
+background-color: #F7E3CA;
+text-decoration: underline;
+}
+
+/* End Drop Down Styles */
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
@@ -183,6 +201,11 @@ a:hover {
 @media (max-width: 979px) {
 	body { 
 		padding: 0 0 0 0;
+	}
+	.navbar-inverse .nav-collapse .nav > li > a,
+	.navbar-inverse .nav-collapse .dropdown-menu a {
+	color: #000;
+	font-weight: normal;
 	}
 	.container-fluid {
 		margin: 0px 0% 0 0%;
