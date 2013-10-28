@@ -1,5 +1,0 @@
-Red:D11523
-Black:141411
-Cream:F7E3CA
-Brown:D8AF93
-Light-Grey: 3A3A38
